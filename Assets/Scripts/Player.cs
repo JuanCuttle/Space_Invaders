@@ -16,7 +16,7 @@ public class Player : MonoBehaviour
 
 	public int lives = 3;
 
-	private bool gameIsPaused;
+	public bool gameIsPaused;
 
 	// Update is called once per frame
 	void Update()
@@ -56,11 +56,6 @@ public class Player : MonoBehaviour
 			_laserActive = true;
 		}
 	}
-
-    public static explicit operator Player(GameObject v)
-    {
-        throw new NotImplementedException();
-    }
 
     private void LaserDestroyed()
 	{

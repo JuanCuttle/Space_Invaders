@@ -505,7 +505,7 @@ GameObject:
   - component: {fileID: 415530301}
   - component: {fileID: 415530300}
   - component: {fileID: 415530302}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Boundary
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -691,7 +691,7 @@ MonoBehaviour:
   - {fileID: -2815111800548600873, guid: 7de575f3b8dfb5741abfc15c0d9d51dc, type: 3}
   - {fileID: -2815111800548600873, guid: 7de575f3b8dfb5741abfc15c0d9d51dc, type: 3}
   - {fileID: -5728722068540002618, guid: 919f9d1b2d17ce245921911a14ecffcb, type: 3}
-  rows: 1
+  rows: 5
   columns: 11
   speed:
     serializedVersion: 2
@@ -985,6 +985,7 @@ MonoBehaviour:
   speed: 10
   points: 0
   lives: 3
+  gameIsPaused: 0
 --- !u!1 &1366297566
 GameObject:
   m_ObjectHideFlags: 0
@@ -996,7 +997,7 @@ GameObject:
   - component: {fileID: 1366297568}
   - component: {fileID: 1366297567}
   - component: {fileID: 1366297569}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Boundary (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}

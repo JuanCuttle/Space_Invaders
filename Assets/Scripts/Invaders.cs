@@ -70,7 +70,10 @@ public class Invaders : MonoBehaviour
 
         if (this.amountKilled >= this.totalInvaders)
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+            Time.timeScale = 0f;
+
+            Player player = FindObjectOfType<Player>();
+            player.gameIsPaused = true;
         }
     }
 
@@ -106,5 +109,13 @@ public class Invaders : MonoBehaviour
         Vector3 position = this.transform.position;
         position.y -= 1.0f;
         this.transform.position = position;
+    }
+
+    private void OnGUI()
+    {
+        if (this.amountKilled >= this.totalInvaders)
+        {
+            GUI.Label(new Rect(170, 200, 1000, 1000), "YOU WIN");
+        }
     }
 }
