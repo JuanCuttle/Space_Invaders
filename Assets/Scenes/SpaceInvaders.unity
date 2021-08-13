@@ -134,7 +134,8 @@ GameObject:
   - component: {fileID: 14882649}
   - component: {fileID: 14882648}
   - component: {fileID: 14882647}
-  m_Layer: 0
+  - component: {fileID: 14882650}
+  m_Layer: 7
   m_Name: MysteryShip
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -233,6 +234,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &14882650
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 14882646}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9bd5735f207b60f4fbb0ab89f2374c59, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  appearingRate: 30
+  speed: 2
 --- !u!1 &149899112
 GameObject:
   m_ObjectHideFlags: 0
@@ -968,6 +983,8 @@ MonoBehaviour:
   laserPrefab: {fileID: 5828479604529573978, guid: ad0511fb7781fd8469b879c42a9dc972,
     type: 3}
   speed: 10
+  points: 0
+  lives: 3
 --- !u!1 &1366297566
 GameObject:
   m_ObjectHideFlags: 0
