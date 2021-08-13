@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -11,9 +12,13 @@ public class Player : MonoBehaviour
 
 	private bool _laserActive;
 
+	public int points;
+
 	// Update is called once per frame
 	void Update()
 	{
+
+		//print(this.points);
 		if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow))
 		{
 			this.transform.position += Vector3.left * this.speed * Time.deltaTime;
@@ -39,7 +44,12 @@ public class Player : MonoBehaviour
 		}
 	}
 
-	private void LaserDestroyed()
+    public static explicit operator Player(GameObject v)
+    {
+        throw new NotImplementedException();
+    }
+
+    private void LaserDestroyed()
 	{
 		_laserActive = false;
 	}
@@ -51,5 +61,10 @@ public class Player : MonoBehaviour
 		{
 			SceneManager.LoadScene(SceneManager.GetActiveScene().name);
 		}
+	}
+
+	private void OnGUI()
+	{
+		GUI.Label(new Rect(10, 10, 100, 20), "Pontos: " + this.points);
 	}
 }

@@ -49,6 +49,9 @@ public class MysteryShip : MonoBehaviour
         if (other.gameObject.layer == LayerMask.NameToLayer("Laser"))
         {
             this.gameObject.SetActive(false);
+
+            Player player = FindObjectOfType<Player>();
+            player.points += 50;
         }
     }
 }
