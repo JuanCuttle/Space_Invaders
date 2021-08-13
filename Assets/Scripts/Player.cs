@@ -32,6 +32,11 @@ public class Player : MonoBehaviour
 			}
 		}
 
+		if (Input.GetKey(KeyCode.Escape))
+		{
+			Application.Quit();
+		}
+
 		if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow))
 		{
 			this.transform.position += Vector3.left * this.speed * Time.deltaTime;
