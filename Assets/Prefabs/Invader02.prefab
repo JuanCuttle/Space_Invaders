@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 212751432137116746}
   - component: {fileID: 61227885794189516}
   - component: {fileID: -2815111800548600873}
+  - component: {fileID: 6421796292473458244}
   m_Layer: 7
   m_Name: Invader02
   m_TagString: Untagged
@@ -127,3 +128,24 @@ MonoBehaviour:
   - {fileID: 21300000, guid: faa33742ca0e31347b439b55fb7cecfd, type: 3}
   - {fileID: 21300000, guid: f71a1796fdbee8e49b6f314e661ba7e1, type: 3}
   animationTime: 1
+--- !u!50 &6421796292473458244
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1234720476344608}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0

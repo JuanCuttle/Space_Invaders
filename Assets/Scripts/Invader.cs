@@ -37,6 +37,7 @@ public class Invader : MonoBehaviour {
         if (other.gameObject.layer == LayerMask.NameToLayer("Laser"))
         { 
             this.gameObject.SetActive(false);
+            this.killed.Invoke();
         }
     }
 }

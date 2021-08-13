@@ -244,7 +244,8 @@ GameObject:
   - component: {fileID: 149899115}
   - component: {fileID: 149899114}
   - component: {fileID: 149899113}
-  m_Layer: 0
+  - component: {fileID: 149899116}
+  m_Layer: 10
   m_Name: Bunker
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -343,6 +344,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &149899116
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 149899112}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4edb7cb834acfa4b95f598d19b8a259, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &279886732
 GameObject:
   m_ObjectHideFlags: 0
@@ -354,7 +367,8 @@ GameObject:
   - component: {fileID: 279886735}
   - component: {fileID: 279886734}
   - component: {fileID: 279886733}
-  m_Layer: 0
+  - component: {fileID: 279886736}
+  m_Layer: 10
   m_Name: Bunker (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -453,6 +467,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &279886736
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 279886732}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4edb7cb834acfa4b95f598d19b8a259, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &415530299
 GameObject:
   m_ObjectHideFlags: 0
@@ -628,7 +654,7 @@ MonoBehaviour:
   - {fileID: -2815111800548600873, guid: 7de575f3b8dfb5741abfc15c0d9d51dc, type: 3}
   - {fileID: -2815111800548600873, guid: 7de575f3b8dfb5741abfc15c0d9d51dc, type: 3}
   - {fileID: -5728722068540002618, guid: 919f9d1b2d17ce245921911a14ecffcb, type: 3}
-  rows: 5
+  rows: 1
   columns: 11
   speed:
     serializedVersion: 2
@@ -636,26 +662,17 @@ MonoBehaviour:
     - serializedVersion: 3
       time: 0
       value: 0.25
-      inSlope: 0
-      outSlope: 0
+      inSlope: 2
+      outSlope: 2
       tangentMode: 0
       weightedMode: 0
       inWeight: 0
       outWeight: 0
     - serializedVersion: 3
-      time: 0.76927143
-      value: 6.6795764
-      inSlope: 8.727007
-      outSlope: 8.727007
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    - serializedVersion: 3
       time: 1
       value: 8
-      inSlope: 2
-      outSlope: 2
+      inSlope: 0
+      outSlope: 0
       tangentMode: 0
       weightedMode: 0
       inWeight: 0
@@ -691,7 +708,8 @@ GameObject:
   - component: {fileID: 725100152}
   - component: {fileID: 725100151}
   - component: {fileID: 725100150}
-  m_Layer: 0
+  - component: {fileID: 725100153}
+  m_Layer: 10
   m_Name: Bunker (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -790,6 +808,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &725100153
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 725100149}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4edb7cb834acfa4b95f598d19b8a259, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1301142977
 GameObject:
   m_ObjectHideFlags: 0
@@ -984,7 +1014,8 @@ GameObject:
   - component: {fileID: 2059926539}
   - component: {fileID: 2059926538}
   - component: {fileID: 2059926537}
-  m_Layer: 0
+  - component: {fileID: 2059926540}
+  m_Layer: 10
   m_Name: Bunker (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1083,6 +1114,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2059926540
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2059926536}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4edb7cb834acfa4b95f598d19b8a259, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!850595691 &2106952549
 LightingSettings:
   m_ObjectHideFlags: 0
